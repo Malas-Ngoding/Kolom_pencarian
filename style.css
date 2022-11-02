@@ -1,0 +1,38 @@
+body{
+ background: rgb(255,238,0);
+ margin: 0;
+ padding: 0;
+ display: flex;
+ height: 100vh;
+}
+a{
+ text-decoration: none;
+}
+.container{
+ margin: 220px auto;
+ background: #fff;
+ height: 30px;
+ border-radius: 30px;
+ padding: 10px 20px;
+ display: flex;
+ align-items: center;
+ justify-content:center ;
+ transition: .8s;
+ box-shadow: 0 0 25px 0 rgba(0,0,0,0.4);
+}
+.container:hover input{
+ width: 300px;
+}
+.container input{
+ background: transparent;
+ border: none;
+ outline: none;
+ width: 0px;
+ font-weight: 500;
+ font-size: 16px;
+ transition: 0.8s;
+ color: #000;
+}
+.container a li.fas{
+ color: red;
+}
